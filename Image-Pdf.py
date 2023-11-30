@@ -15,7 +15,7 @@ def convert_to_pdf(image_path):
 # This function handles the /start command
 @bot.message_handler(commands=['start'])
 def send_welcome(message):
-    bot.reply_to(message, 'Welcome to the  Weedo image to PDF converter bot!')
+    bot.reply_to(message, 'Welcome to the Weedo image to PDF converter bot! Send me an image and I will convert it to a PDF for you.')
 
 # This function handles the image messages
 @bot.message_handler(content_types=['photo'])
@@ -38,3 +38,4 @@ def handle_image(message):
 
 # Start the bot
 bot.polling()
+v
