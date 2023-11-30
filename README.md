@@ -35,6 +35,7 @@ To run the bot, save the code as a `.py` file and then run the following command
 
 ```
 python <filename>.py
+ex: bot.py
 ```
 
 ### Notes
@@ -42,8 +43,3 @@ python <filename>.py
 * The bot will save downloaded images and generated PDFs to a temporary directory.
 * The bot will delete temporary files after sending the PDF to the user.
 * The bot uses the `Image` module from the PIL library to convert images to PDF.
-
-### License
-
-This code is licensed under the MIT License.# Telegram-Bot
-Weedo Image to PDF Converter Bot.This bot allows users to convert images to PDF files.
